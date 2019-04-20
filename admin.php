@@ -14,4 +14,8 @@ if(isset($_POST['back']))
 {
 	header("Location: index.php"); exit();
 }
+if(isset($_POST['Kandidat']))
+{
+	header("Location: Kandidat.php"); exit();
+}
 ?>

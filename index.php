@@ -28,7 +28,7 @@ print '<div class="login-page">
 ';
 print "Привет, ".$userdata['user_login'].".</p>
 <form class='login-form' method='POST' action='admin.php'>
-<button  >Просмотр сотрудников</button>
+<button name='Kandidat' >Просмотр сотрудников</button>
 <button name='vacansy' style='margin-top: 15px;'>Список вакансий</button>
 <button name='logout' type='submit' style='background: #ef3b3a;margin-top: 15px;'>Выход</button>
 </form>
